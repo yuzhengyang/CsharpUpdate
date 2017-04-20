@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpUpdate", "CsharpUpdat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUpdate", "SimpleUpdate\SimpleUpdate.csproj", "{67A7673B-D71C-4C1F-B8AD-BE12ED4A6426}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Version.Wrench", "Version.Wrench", "{6EC9921A-D9D8-44DC-A1D5-581BD23A5E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Version.Builder", "Version.Builder\Version.Builder.csproj", "{10F1E19E-AEBA-4835-9A58-F02BEC46FF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Version.Update", "Version.Update\Version.Update.csproj", "{0DFAC9FC-9D48-4DCF-AE72-8FB1CA70A06E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +27,20 @@ Global
 		{67A7673B-D71C-4C1F-B8AD-BE12ED4A6426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67A7673B-D71C-4C1F-B8AD-BE12ED4A6426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67A7673B-D71C-4C1F-B8AD-BE12ED4A6426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F1E19E-AEBA-4835-9A58-F02BEC46FF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F1E19E-AEBA-4835-9A58-F02BEC46FF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F1E19E-AEBA-4835-9A58-F02BEC46FF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F1E19E-AEBA-4835-9A58-F02BEC46FF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFAC9FC-9D48-4DCF-AE72-8FB1CA70A06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFAC9FC-9D48-4DCF-AE72-8FB1CA70A06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFAC9FC-9D48-4DCF-AE72-8FB1CA70A06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFAC9FC-9D48-4DCF-AE72-8FB1CA70A06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10F1E19E-AEBA-4835-9A58-F02BEC46FF4B} = {6EC9921A-D9D8-44DC-A1D5-581BD23A5E6B}
+		{0DFAC9FC-9D48-4DCF-AE72-8FB1CA70A06E} = {6EC9921A-D9D8-44DC-A1D5-581BD23A5E6B}
 	EndGlobalSection
 EndGlobal
